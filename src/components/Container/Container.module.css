@@ -1,0 +1,30 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 0 auto;
+  background: rgb(197, 135, 222);
+}
+
+@media screen and (min-width: 768px) {
+  .Container {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 740px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .Container {
+    width: 1210px;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 1680px) {
+  .Container {
+    width: 1640px;
+    margin: 0 auto;
+  }
+}

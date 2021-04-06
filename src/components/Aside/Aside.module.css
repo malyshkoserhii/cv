@@ -1,0 +1,70 @@
+.Aside {
+  width: 280px;
+  background-color: aquamarine;
+}
+
+.ImageWrapper {
+  padding-top: 20px;
+  width: 240px;
+  margin: 0 auto 15px;
+}
+
+.Image {
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+  .Aside {
+    margin: 0;
+    background-color: rgb(138, 43, 226);
+  }
+}
+
+.Title {
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.Position {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 24px;
+  color: var(--main-color);
+}
+
+.Name {
+  text-align: center;
+  margin: 0;
+  font-size: 30px;
+  color: var(--main-color);
+}
+
+.ContactsList {
+  margin: 0;
+  padding: 20px 0;
+  list-style: none;
+  border-top: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
+}
+
+.ContactsListItem {
+  display: flex;
+  align-items: center;
+}
+
+.ContactsListItem:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.MarkerWrapper {
+  display: flex;
+  width: 28px;
+  margin-right: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}

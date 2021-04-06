@@ -1,0 +1,26 @@
+.Description {
+  width: 280px;
+  margin: 0 auto;
+  background-color: crimson;
+  height: 600px;
+}
+
+@media screen and (min-width: 768px) {
+  .Description {
+    flex-direction: row;
+    width: 460px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .Description {
+    width: 930px;
+  }
+}
+
+@media (min-width: 1680px) {
+  .Description {
+    width: 1360px;
+  }
+}
