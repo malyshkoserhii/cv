@@ -6,8 +6,9 @@ import { ReactComponent as Linkedin } from './svg/linkedin.svg';
 import { ReactComponent as Telephone } from './svg/telephone.svg';
 import { ReactComponent as Github } from './svg/github.svg';
 import { ReactComponent as Location } from './svg/location.svg';
-import { tech } from '../data/data';
-import List from '../List/List';
+import { tech, soft, lang } from '../../data/data';
+import List from '../List';
+import LangList from '../LangList';
 import s from './Aside.module.css';
 
 export default function Aside() {
@@ -23,28 +24,29 @@ export default function Aside() {
       </div>
       <div className={s.Title}>
         <h2 className={s.Position}>Front End Developer</h2>
-        <h1 className={s.Name}> Serhii Malyshko</h1>
+        <h1 className={s.Name}>Serhii Malyshko</h1>
       </div>
-      <div className={s.Contacts}>
+      <div className={s.ContactsWrapper}>
+        <h2 className={s.ContactsTitle}>Contacts</h2>
         <ul className={s.ContactsList}>
           <li className={s.ContactsListItem}>
             <div className={s.MarkerWrapper}>
               <Telephone />
             </div>
-            <p>+38 (096) 660-95-20</p>
+            <p className={s.Text}>+38 (096) 660-95-20</p>
           </li>
           <li className={s.ContactsListItem}>
             <div className={s.MarkerWrapper}>
               <Gmail />
             </div>
-            <p> malyshkosergiy@gmail.com </p>
+            <p className={s.Text}> malyshkosergiy@gmail.com </p>
           </li>
           <li className={s.ContactsListItem}>
             <div className={s.MarkerWrapper}>
               <Telegram />
             </div>
             <a
-              className={s.link}
+              className={s.Link}
               href="https://t.me/mr_john_reese"
               target="_blank"
               rel="noreferrer"
@@ -57,7 +59,7 @@ export default function Aside() {
               <Linkedin />
             </div>
             <a
-              className={s.link}
+              className={s.Link}
               href="https://www.linkedin.com/in/serhii-malyshko-5a7958199"
               target="_blank"
               rel="noreferrer"
@@ -70,7 +72,7 @@ export default function Aside() {
               <Github />
             </div>
             <a
-              className={s.link}
+              className={s.Link}
               href="https://github.com/malyshkoserhii"
               target="_blank"
               rel="noreferrer"
@@ -82,11 +84,13 @@ export default function Aside() {
             <div className={s.MarkerWrapper}>
               <Location />
             </div>
-            <p>Lutsk, Ukraine</p>
+            <p className={s.Text}>Lutsk, Ukraine</p>
           </li>
         </ul>
       </div>
       <List title="Techical Skills" content={tech} />
+      <List title="Soft Skills" content={soft} />
+      <LangList title="Languages" content={lang} />
     </section>
   );
 }

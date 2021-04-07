@@ -14,11 +14,12 @@
   border-radius: 50%;
 }
 
-@media screen and (min-width: 768px) {
-  .Aside {
-    margin: 0;
-    background-color: rgb(138, 43, 226);
-  }
+.ContactsWrapper {
+  width: 226px;
+  margin: 0 auto;
+  padding-top: 20px;
+  border-top: 1px solid var(--main-color);
+  border-bottom: 1px solid var(--main-color);
 }
 
 .Title {
@@ -34,18 +35,23 @@
 }
 
 .Name {
-  text-align: center;
   margin: 0;
+  padding-bottom: 20px;
+  text-align: center;
   font-size: 30px;
   color: var(--main-color);
 }
 
+.ContactsTitle {
+  text-align: center;
+  font-size: var(--mobile-title-font-size);
+  margin-bottom: 10px;
+}
+
 .ContactsList {
   margin: 0;
-  padding: 20px 0;
+  padding-bottom: 20px;
   list-style: none;
-  border-top: 1px solid var(--main-color);
-  border-bottom: 1px solid var(--main-color);
 }
 
 .ContactsListItem {
@@ -59,12 +65,27 @@
 
 .MarkerWrapper {
   display: flex;
-  width: 28px;
-  margin-right: 15px;
+  width: 20px;
+  margin-right: 4px;
   justify-content: center;
   align-items: center;
 }
 
-.link {
+.Link {
+  font-size: var(--mobile-main-font-size);
   text-decoration: none;
+}
+
+.Text {
+  font-size: var(--mobile-main-font-size);
+}
+
+@media screen and (min-width: 768px) {
+  .Aside {
+    margin: 0;
+  }
+
+  .Title {
+    display: none;
+  }
 }
