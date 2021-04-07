@@ -1,3 +1,5 @@
+import Project from '../Project';
+import { projects } from '../../data/data';
 import s from './Description.module.css';
 
 export default function Description() {
@@ -7,6 +9,16 @@ export default function Description() {
         <h2 className={s.Position}>Front End Developer</h2>
         <h1 className={s.Name}>Serhii Malyshko</h1>
       </div>
+      {projects.map((project, idx) => (
+        <Project
+          key={idx}
+          projectName={project.name}
+          githubLink={project.github}
+          exampleLink={project.example}
+          technology={project.technology}
+          description={project.description}
+        />
+      ))}
     </section>
   );
 }

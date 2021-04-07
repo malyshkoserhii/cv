@@ -1,11 +1,11 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
 import photo from './SM.png';
-import { ReactComponent as Telegram } from './svg/telegram.svg';
-import { ReactComponent as Gmail } from './svg/gmail.svg';
-import { ReactComponent as Linkedin } from './svg/linkedin.svg';
-import { ReactComponent as Telephone } from './svg/telephone.svg';
-import { ReactComponent as Github } from './svg/github.svg';
-import { ReactComponent as Location } from './svg/location.svg';
+import { ReactComponent as Telegram } from '../../images/svg/telegram.svg';
+import { ReactComponent as Gmail } from '../../images/svg/gmail.svg';
+import { ReactComponent as Linkedin } from '../../images/svg/linkedin.svg';
+import { ReactComponent as Telephone } from '../../images/svg/telephone.svg';
+import { ReactComponent as Github } from '../../images/svg/github.svg';
+import { ReactComponent as Location } from '../../images/svg/location.svg';
 import { tech, soft, lang } from '../../data/data';
 import List from '../List';
 import LangList from '../LangList';
