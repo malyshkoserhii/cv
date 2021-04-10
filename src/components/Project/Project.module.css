@@ -39,6 +39,7 @@
 .Technology {
   margin-bottom: 10px;
   font-style: italic;
+  font-weight: 500;
   line-height: 1.3;
   font-size: var(--mobile-main-font-size);
 }

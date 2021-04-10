@@ -2,15 +2,16 @@
   width: 280px;
   margin: 0 auto;
   background-color: grey;
-  height: 2000px;
+  height: max-content;
 }
 
-.Title {
-  display: none;
+.TitleWrapper {
+  padding-top: 20px;
+  font-size: var(--mobile-title-font-size);
 }
 
 .Position {
-  margin-bottom: 20px;
+  margin-bottom: 12px;
   text-align: center;
   color: var(--main-color);
 }
@@ -18,7 +19,19 @@
 .Name {
   margin: 0;
   text-align: center;
-  color: var(--main-color);
+}
+
+.AboutWrapper {
+  padding: 20px 0;
+  margin: 0 auto;
+  width: 240px;
+  border-bottom: 1px solid var(--main-color);
+}
+
+.About {
+  font-weight: 400;
+  font-size: var(--mobile-main-font-size);
+  text-align: justify;
 }
 
 .ProjectsTitle {

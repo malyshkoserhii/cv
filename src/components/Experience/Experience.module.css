@@ -1,6 +1,9 @@
 .SectionExperience {
+  width: 240px;
+  margin: 0 auto;
   text-align: justify;
-  padding: 10px 20px;
+  padding: 10px 0;
+  border-top: 1px solid var(--main-color);
 }
 
 .Title {
