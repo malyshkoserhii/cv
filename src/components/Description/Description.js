@@ -1,5 +1,7 @@
 import Project from '../Project';
-import { projects } from '../../data/data';
+import Experience from '../Experience';
+import Education from '../Education';
+import { projects, experience, education } from '../../data/data';
 import s from './Description.module.css';
 
 export default function Description() {
@@ -9,6 +11,7 @@ export default function Description() {
         <h2 className={s.Position}>Front End Developer</h2>
         <h1 className={s.Name}>Serhii Malyshko</h1>
       </div>
+      <h2 className={s.ProjectsTitle}>Projects</h2>
       {projects.map((project, idx) => (
         <Project
           key={idx}
@@ -19,6 +22,10 @@ export default function Description() {
           description={project.description}
         />
       ))}
+
+      <Experience content={experience} />
+
+      <Education title="Education" content={education} />
     </section>
   );
 }

@@ -1,0 +1,22 @@
+.SectionExperience {
+  text-align: justify;
+  padding: 0 20px;
+}
+
+.Title {
+  line-height: 1.5;
+  font-size: var(--mobile-title-font-size);
+}
+
+.ResponsibilitiesTitle {
+  line-height: 1.5;
+  font-size: var(--mobile-main-font-size);
+}
+
+.Description {
+  font-size: var(--mobile-main-font-size);
+}
+
+.Description:not(:last-child) {
+  margin-bottom: 8px;
+}
