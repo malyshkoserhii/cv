@@ -6,7 +6,9 @@ const Education = ({ title, content }) => (
     {content.map((el) => (
       <>
         <p className={s.University}>{el.university}</p>
-        <p className={s.Level}>{el.level}</p>
+        <p className={s.Location}>{el.location}</p>
+        <p className={s.Faculty}>{el.faculty}</p>
+        <p className={s.Degree}>{el.degree}</p>
         <p className={s.Period}>{el.period}</p>
       </>
     ))}

@@ -1,0 +1,29 @@
+.EducationSection {
+  padding: 10px 20px;
+}
+
+.Title {
+  line-height: 1.5;
+  font-size: var(--mobile-title-font-size);
+}
+
+.University {
+  font-size: var(--mobile-main-font-size);
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.Description {
+  font-size: 20px;
+}
+
+.Location,
+.Faculty,
+.Degree,
+.Period {
+  font-size: var(--mobile-main-font-size);
+}
+
+.Period:not(:last-child) {
+  margin-bottom: 8px;
+}
