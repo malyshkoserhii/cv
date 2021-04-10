@@ -21,20 +21,8 @@ export default function Description() {
         </p>
       </div>
       <Knowledge title="Development skills" />
-      <h2 className={s.ProjectsTitle}>Projects</h2>
-      {projects.map((project, idx) => (
-        <Project
-          key={idx}
-          projectName={project.name}
-          githubLink={project.github}
-          exampleLink={project.example}
-          technology={project.technology}
-          description={project.description}
-        />
-      ))}
-
+      <Project title="Projects" contetnt={projects} />
       <Experience content={experience} />
-
       <Education title="Education" content={education} />
     </section>
   );

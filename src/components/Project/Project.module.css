@@ -1,6 +1,20 @@
 .ProjectSection {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.Wrapper {
+  width: 240px;
+  margin: 0 auto;
+}
+
+.ProjectsTitle {
+  width: 240px;
+  margin: 0 auto 12px;
+  font-size: var(--mobile-title-font-size);
+}
+
+.Wrapper:not(:last-child) {
+  margin-bottom: 10px;
 }
 
 .ProjectSectionContainer {
@@ -51,7 +65,18 @@
 }
 
 @media screen and (min-width: 768px) {
+  .Wrapper {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .ProjectSectionContainer {
-    width: 420px;
+    width: 100%;
+  }
+
+  .ProjectsTitle {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
   }
 }
