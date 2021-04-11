@@ -6,19 +6,18 @@ const Knowledge = ({ title }) => (
       <h2 className={s.Title}>{title}</h2>
       <p className={s.Description}>
         Confident knowledge of HTML and CSS, also knowledge of the preprocessor
-        SASS. Using of Flexbox I understand basic principles of adaptive and
-        responsive layout, optimize images, including SVG, and can use BEM
-        methodology.
+        SASS. I understand basic principles of adaptive and responsive layout,
+        work with Flexbox and use BEM methodology.
       </p>
       <p className={s.Description}>
         My main development language is JavaScript. Understanding of interaction
         with the DOM, understanding the REST, AJAX and CRUD interaction with
-        databases, using of the Fetch API and basic understanding even loop
+        databases, using of the Fetch API and basic understanding the event loop
         cycle.
       </p>
       <p className={s.Description}>
         Knowledge of React framework for creating applications and basic
-        understanding Redux library for managing application state.
+        understanding of Redux library for managing application state.
         Understanding routing and using of React Router. Understanding SPA and
         MPA application models. Working with local storage. Also I've got
         familiar with the most popular React Hooks, and can use Ant Design. I
@@ -30,11 +29,11 @@ const Knowledge = ({ title }) => (
         Git and GitHub.
       </p>
       <p className={s.Description}>
-        For coding I use Visual Studio Code and Chrome DevTools, also can work
+        For coding I use Visual Studio Code and Chrome DevTools, also I can work
         with Postman, Netlify, Heroku.
       </p>
       <p className={s.Description}>
-        As a developer I can use Photoshop. Understanding Agile methodology,
+        As a developer I use Photoshop. Understanding Agile methodology and
         Scrum. For task and time management I use Trello.
       </p>
     </div>

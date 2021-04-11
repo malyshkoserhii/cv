@@ -14,10 +14,10 @@ export default function Description() {
       </div>
       <div className={s.AboutWrapper}>
         <p className={s.About}>
-          Looking for a job opportunity as a Front End Developer. I am
-          persistent and responsible person ,who knows how to work in team, also
-          I am very hardworking and work in order to goal the aim and show high
-          results. I am used to resolving task with a different level of
+          Looking for a job opportunity as a Front End Developer. I am a
+          persistent and responsible person, who knows how to work in team, also
+          I am ready to work hard in order to goal the aim and show high
+          results. I am used to resolving tasks with a different level of
           complexity.
         </p>
       </div>

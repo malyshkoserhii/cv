@@ -13,7 +13,7 @@ export default function Project({ title, contetnt }) {
               <h2 className={s.Title}>{el.name}</h2>
               <div className={s.LinkContainer}>
                 <a
-                  href={el.githubLink}
+                  href={el.github}
                   target="_blank"
                   rel="noreferrer"
                   className={s.Link}
@@ -21,7 +21,7 @@ export default function Project({ title, contetnt }) {
                   <Github />
                 </a>
                 <a
-                  href={el.exampleLink}
+                  href={el.example}
                   target="_blank"
                   rel="noreferrer"
                   className={s.Link}
