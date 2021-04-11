@@ -1,5 +1,5 @@
 .KnowledgeSection {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .KnowledgeWrapper {
@@ -9,7 +9,7 @@
 }
 
 .Title {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
   font-size: var(--mobile-title-font-size);
 }
 
