@@ -49,7 +49,7 @@ export default function Aside() {
               className={s.Link}
               href="https://t.me/mr_john_reese"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer noopener"
             >
               Telegram
             </a>
@@ -62,7 +62,7 @@ export default function Aside() {
               className={s.Link}
               href="https://www.linkedin.com/in/serhii-malyshko-5a7958199"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer noopener"
             >
               LinkedIn
             </a>
@@ -75,7 +75,7 @@ export default function Aside() {
               className={s.Link}
               href="https://github.com/malyshkoserhii"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer noopener"
             >
               GitHub
             </a>

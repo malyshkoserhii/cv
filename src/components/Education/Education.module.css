@@ -13,10 +13,6 @@
   margin-bottom: 10px;
 }
 
-.DescriptionWrapper:last-child {
-  border-bottom: 1px solid var(--main-color);
-}
-
 .University {
   font-size: var(--mobile-main-font-size);
   font-weight: 700;
@@ -41,6 +37,7 @@
 @media screen and (min-width: 768px) {
   .EducationWrapper {
     width: 100%;
+    padding: 0;
   }
 
   .DescriptionWrapper {

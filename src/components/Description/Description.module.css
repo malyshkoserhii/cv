@@ -1,14 +1,13 @@
 .Description {
-  width: 280px;
+  width: 260px;
   margin: 0 auto;
-  background-color: grey;
   height: max-content;
 }
 
 .TitleWrapper {
   width: 240px;
   margin: 0 auto 12px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
 .Position {
