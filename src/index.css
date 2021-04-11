@@ -1,0 +1,38 @@
+@import-normalize;
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  padding: 20px 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img {
+  display: block;
+  min-width: 100%;
+  height: auto;
+}
+
+:root {
+  --mobile-title-font-size: 18px;
+  --mobile-main-font-size: 16px;
+  --laptop-title-font-size: 20px;
+  --laptop-main-font-size: 18px;
+  --main-color: rgb(138, 43, 226);
+}

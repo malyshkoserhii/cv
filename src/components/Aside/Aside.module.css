@@ -1,0 +1,91 @@
+.Aside {
+  width: 260px;
+}
+
+.ImageWrapper {
+  width: 240px;
+  padding-top: 10px;
+  margin: 0 auto 15px;
+}
+
+.Image {
+  margin: 0 auto;
+  border-radius: 50%;
+}
+
+.ContactsWrapper {
+  width: 240px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.Title {
+  margin: 0 auto;
+  border-bottom: 1px solid var(--main-color);
+}
+
+.Position {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 24px;
+  color: var(--main-color);
+}
+
+.Name {
+  margin: 0;
+  padding-bottom: 6px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.ContactsTitle {
+  text-align: center;
+  font-size: var(--mobile-title-font-size);
+  margin-bottom: 10px;
+}
+
+.ContactsList {
+  width: 226px;
+  margin: 0;
+  padding-bottom: 20px;
+  list-style: none;
+  border-bottom: 1px solid var(--main-color);
+}
+
+.ContactsListItem {
+  display: flex;
+  align-items: center;
+}
+
+.ContactsListItem:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.MarkerWrapper {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.Link {
+  font-size: var(--mobile-main-font-size);
+  text-decoration: none;
+}
+
+.Text {
+  font-size: var(--mobile-main-font-size);
+}
+
+@media screen and (min-width: 768px) {
+  .Aside {
+    margin: 0;
+    border-right: 1px solid var(--main-color);
+  }
+
+  .Title {
+    display: none;
+  }
+}

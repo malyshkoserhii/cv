@@ -1,0 +1,17 @@
+.Wrapper {
+  width: 226px;
+  margin: 0 auto;
+  padding: 20px;
+  border-bottom: 1px solid var(--main-color);
+}
+
+.Title {
+  text-align: center;
+  font-size: var(--mobile-title-font-size);
+  margin-bottom: 10px;
+}
+
+.ListItem:not(:last-child) {
+  font-size: var(--mobile-main-font-size);
+  margin-bottom: 10px;
+}

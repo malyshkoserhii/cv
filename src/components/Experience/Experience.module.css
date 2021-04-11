@@ -1,0 +1,38 @@
+.SectionExperience {
+  width: 240px;
+  margin: 0 auto 20px;
+  text-align: justify;
+}
+
+.Title {
+  line-height: 1.5;
+  font-size: var(--mobile-title-font-size);
+}
+
+.ResponsibilitiesTitle {
+  line-height: 1.5;
+  font-size: var(--mobile-main-font-size);
+}
+
+.Description {
+  font-size: var(--mobile-main-font-size);
+}
+
+.Description:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.Description:last-child {
+  border-bottom: 1px solid var(--main-color);
+}
+
+@media screen and (min-width: 768px) {
+  .SectionExperience {
+    width: 100%;
+  }
+
+  .Wrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

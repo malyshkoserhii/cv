@@ -1,0 +1,36 @@
+.KnowledgeSection {
+  margin-bottom: 20px;
+}
+
+.KnowledgeWrapper {
+  width: 240px;
+  margin: 0 auto;
+}
+
+.Title {
+  margin-bottom: 12px;
+  font-size: var(--mobile-title-font-size);
+}
+
+.Description {
+  text-align: justify;
+  font-size: var(--mobile-main-font-size);
+}
+
+.Description:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.Description:last-child {
+  text-align: justify;
+  font-size: var(--mobile-main-font-size);
+  border-bottom: 1px solid var(--main-color);
+}
+
+@media screen and (min-width: 768px) {
+  .KnowledgeWrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+}

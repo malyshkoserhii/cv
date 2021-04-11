@@ -1,0 +1,52 @@
+.EducationWrapper {
+  padding-bottom: 10px;
+  width: 240px;
+  margin: 0 auto;
+}
+
+.Title {
+  line-height: 1.5;
+  font-size: var(--mobile-title-font-size);
+}
+
+.DescriptionWrapper:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.University {
+  font-size: var(--mobile-main-font-size);
+  font-weight: 700;
+  color: var(--main-color);
+}
+
+.Description {
+  font-size: 20px;
+}
+
+.Location,
+.Faculty,
+.Degree,
+.Period {
+  font-size: var(--mobile-main-font-size);
+}
+
+.Period:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .EducationWrapper {
+    width: 100%;
+    padding: 0;
+  }
+
+  .DescriptionWrapper {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .Title {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
