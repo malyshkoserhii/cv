@@ -15,9 +15,10 @@ export default function Description() {
       <div className={s.AboutWrapper}>
         <p className={s.About}>
           Looking for a job opportunity as a Front End Developer. I am
-          persistent and very hardworking, also I am responsible and work in
-          order to goal the aim and show a high result. I know how to work in
-          team and try to do the tasks in time.
+          persistent and responsible person ,who knows how to work in team, also
+          I am very hardworking and work in order to goal the aim and show high
+          results. I am used to resolving task with a different level of
+          complexity.
         </p>
       </div>
       <Knowledge title="Development skills" />

@@ -15,6 +15,15 @@
 .Description {
   text-align: justify;
   font-size: var(--mobile-main-font-size);
+}
+
+.Description:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.Description:last-child {
+  text-align: justify;
+  font-size: var(--mobile-main-font-size);
   border-bottom: 1px solid var(--main-color);
 }
 
