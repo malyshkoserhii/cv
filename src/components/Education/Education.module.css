@@ -10,7 +10,7 @@
 }
 
 .DescriptionWrapper:not(:last-child) {
-  margin-bottom: 10px;
+  margin-bottom: 6px;
 }
 
 .University {
@@ -31,7 +31,7 @@
 }
 
 .Period:not(:last-child) {
-  margin-bottom: 8px;
+  margin-bottom: 6px;
 }
 
 @media screen and (min-width: 768px) {

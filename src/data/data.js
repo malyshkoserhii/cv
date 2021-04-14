@@ -45,7 +45,7 @@ export const projects = [
       'Phonebook is the example of simple site in order to work with collection of your phone number. This example is based on React and Redux, also it includes React Router. This application allows you not only to add a contact, but also you can edit the specific contact.',
   },
   {
-    name: 'Image Finder (React)',
+    name: 'Image Finder',
     github: 'https://github.com/malyshkoserhii/goit-react-hw-04-hooks-images',
     example: 'https://malyshkoserhii.github.io/goit-react-hw-04-hooks-images/',
     technology: 'HTML, CSS, React',
