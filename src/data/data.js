@@ -52,14 +52,6 @@ export const projects = [
     description:
       'The main purpose of this application is a search of pictures by using a special input field. Also this site includes a modal window which allows seeing picture of a large size. Backend is based on Pixabay API.',
   },
-  {
-    name: 'Image Finder (JS)',
-    github: 'https://github.com/malyshkoserhii/goit-js-hw-13-image-finder',
-    example: 'https://malyshkoserhii.github.io/goit-js-hw-13-image-finder/',
-    technology: 'HTML, CSS, JavaScript',
-    description:
-      'This image finder relates from Pixabay API. It is based on a pure ES6 Javascript, Bootstrap grid for positioning of elements and modal window provided by a special library.',
-  },
 ];
 
 export const experience = [
