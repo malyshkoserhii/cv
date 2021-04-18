@@ -60,7 +60,7 @@ export default function Aside() {
             </div>
             <a
               className={s.Link}
-              href="https://www.linkedin.com/in/serhii-malyshko-5a7958199"
+              href="https://www.linkedin.com/in/serhii-malyshko"
               target="_blank"
               rel="noreferrer noopener"
             >
