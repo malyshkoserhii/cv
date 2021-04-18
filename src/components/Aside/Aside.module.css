@@ -4,13 +4,15 @@
 
 .ImageWrapper {
   width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   padding-top: 10px;
   margin: 0 auto 15px;
 }
 
 .Image {
   margin: 0 auto;
-  border-radius: 50%;
 }
 
 .ContactsWrapper {

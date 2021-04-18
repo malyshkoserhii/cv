@@ -19,9 +19,9 @@ const Knowledge = ({ title }) => (
         Knowledge of React framework for creating applications and basic
         understanding of Redux library for managing application state.
         Understanding routing and using of React Router. Understanding SPA and
-        MPA application models. Working with local storage. Also I've got
-        familiar with the most popular React Hooks, and can use Ant Design. I
-        have basic knowledge of Webpack bundler and Typescript.
+        MPA application models. Working with local storage. Also I have got
+        familiar with the most popular React Hooks. I have basic knowledge of
+        Webpack bundler, Typescript and Google Authorization API.
       </p>
       <p className={s.Description}>
         Understanding of backend. Basic knowledge of Node.js, Express, MongoDB
