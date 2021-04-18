@@ -23,8 +23,8 @@ export const soft = [
 
 export const lang = [
   { language: 'Ukrainian', level: 'native' },
+  { language: 'Russian', level: 'native' },
   { language: 'English', level: 'intermedite' },
-  { language: 'Russian', level: 'advanced' },
 ];
 
 export const projects = [
